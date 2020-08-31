@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Page Layout | IT-Bari Tutorials</title>
+	<style>
+		.block{
+			width:300px;
+			height:300px;
+			margin-top:20px;
+			margin-right:20px;
+			background:orange;
+			float:left;
+			
+		}
+		@media (max-width:450px){
+			.block{
+				background:red;
+				width:100%;
+				float:none;
+			}
+		}
+		@media (min-width:451px) and (max-width:768px){
+			.block{
+				background:blue;				
+				width:100%;
+				float:none;
+			}
+		}
+		@media (min-width:769px) and (max-width:1024px){
+			.block{
+				background:orange;
+				width:30%;
+				margin-right:3.33%;
+			}
+		}	
+		@media (min-width:1025px){
+			.block{
+				background:black;
+				width:30%;
+				margin-right:3.33%;
+			}
+		}		
+	</style>
+</head>
+<body>
+	
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+	
+</body>
+</html>

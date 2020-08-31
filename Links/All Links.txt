@@ -1,0 +1,16 @@
+**** Video no. 04 ****
+
+Static Page Layout: http://codepen.io/nickpettit/full/AyaGb
+
+Liquid Page Layout: http://codepen.io/nickpettit/full/htviL
+
+Adaptive Page Layout: http://codepen.io/nickpettit/full/dFgop
+
+Responsive Page Layout: http://codepen.io/nickpettit/full/rLlaF
+
+
+---------------------------------------------------------------------
+
+CSS Menu Make:
+
+http://cssmenumaker.com/responsive-menus

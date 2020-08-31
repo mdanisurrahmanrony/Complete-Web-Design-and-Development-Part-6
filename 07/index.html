@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Adaptive Page Layout | IT-Bari Tutorials</title>
+	<style>
+		.block{
+			width:300px;
+			height:300px;
+			margin-top:20px;
+			margin-right:20px;
+			background:orange;
+			float:left;
+			
+		}
+		@media (max-width:450px){
+			.block{
+				background:red;
+				width:200px;
+			}
+		}
+		@media (min-width:451px) and (max-width:768px){
+			.block{
+				background:green;
+			}
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+	
+</body>
+</html>
